@@ -5,7 +5,7 @@ import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="关于">
+<Layout title="关于 - 爱喝ad奶">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="关于"
@@ -18,13 +18,30 @@ import Layout from "../layouts/main.astro";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-    ⌨️ 努力的程序员 / 📷业余的摄影师 / 📖未来的小说家
+    ⌨️ 努力的程序员 ||  📷业余的摄影师 || 📖未来的小说家
     </p>
-
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experience
+      2024年度计划
+    </h2>
+    <ul
+      class="py-2 space-y-[3px] list-disc list-inside dark:text-neutral-200"
+      >
+          <li><a href="https://www.ruankao.org.cn/" >软考高项：系统架构师</a></li>
+          <li><a href="https://doc.dcloud.net.cn/uni-app-x/" >学习uniapp、uni-app x</a></li>
+          <li>...</li>
+    </ul>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      技能树
+    </h2>
+    <img src="https://skillicons.dev/icons?i=python,java,dart,html,css,js,spring,ts,vue,vite,pinia,jquery,flutter,nodejs,maven,mysql,redis,linux,docker,nginx,ps,ai,pr,ae&amp;theme=light" loading=lazy alt=技能树>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      经历
     </h2>
     <div class="px-5 py-10">
       {
@@ -55,18 +72,26 @@ import Layout from "../layouts/main.astro";
         })
       }
     </div>
-
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      比赛 & 证书
+    </h2>
+    <ul
+      class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
+      >
+          <li>软考中项：软件设计师</li>
+          <li>2021中国大学生计算机设计大赛全国二等奖</li>
+          <li>2023中国大学生计算机设计大赛全省二等奖</li>
+    </ul>
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">如何联系</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
-        target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
-        >email</a
-      > and I'll be sure to get back to you.
+      如果有什么疑问，可以在博客评论留言，或者通过<a
+        href="https://blog.csdn.net/qq_26572789" target="_blank" class="text-indigo-600 underline">CSDN</a>、
+        <a href="https://github.com/2585570153" class="text-indigo-600 underline">Github</a>、
+        <a href="mailto:2585570153@qq.com" class="text-indigo-600 underline">邮箱</a>联系我。
     </p>
   </section>
 </Layout>
