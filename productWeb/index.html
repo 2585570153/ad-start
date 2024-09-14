@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>a.d的项目实验室-a.d博客</title>
+    <meta name="keywords" content="项目,Web 实验室,博客">
+    
+    <!-- font-awesome 图标字体 -->
+    <link href="/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+    
+    <!-- 实验室核心样式文件 -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="custom.css">
+
+    
+
+</head>
+<body>
+
+
+<header class="header">
+    <!-- 动画展示区域 -->
+    <div id="victor-container"><div id="victor-output"></div></div>
+    
+    <div class="welcome">
+        <p>— 欢迎访问 —</p>
+        
+    </div>
+    
+    <!--向下滚动提示-->
+    <a class="scroll-down-tips" href="#product" onclick="$('html, body').animate({scrollTop: $('.header').height()}, '500');return false;">
+        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        向下滚动
+    </a>
+</header>     <!-- header -->
+
+<div class="container">
+
+<section class="section">
+
+<a name="product"></a>
+<h3 class="mk-sub-title">
+    <span>Product</span>
+    <span>/</span>
+    原创作品
+</h3>
+
+<p class="mk-title-describe">没错，这些都是我的原创作品</p>
+
+<div class="custom-item-box">
+    <div class="custom-item">
+        <div class="custom-left">
+            <img src="https://cos.aiheadn.cn/web/product/fiction.png" aria-hidden="true" alt="Node.js logo">
+        </div>
+        <div class="custom-right">
+            <h3>fiction 中文网-小说网</h3>
+            <p>项目架构：SpringBoot + Mybatis-puls + Vue3 + element-plus + Sa-token+ scrapy</p>
+            <p>项目描述：采集全网免费小说，储存服务器后，提供个人在线阅读。</p>
+            <p>主要说明：单体项目，使用 python 中的 Scrapy 爬虫框架将网上的小说源站采集到服务器中，小说书籍和内容分别储存为本地和数据库中，使用 JAVA 和 Vue 编写的小说网站（UI 参考 QQ 阅读），读取爬虫采集的数据库，拥有阅读、分类、详情、排行榜、书架等功能，持续开发......</p>
+
+            <div class="custom-buttons">
+                <a href="http://49.232.143.13:8080/" class="custom-btn demo-btn" target="_blank">演示</a>
+                <a href="#" class="custom-btn docs-btn" target="_blank">待更新</a>
+                <a href="https://github.com/2585570153/ad-fiction-front" class="custom-btn repo-btn" target="_blank">项目地址</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="custom-item-box">
+    <div class="custom-item">
+        <div class="custom-left">
+            <img src="https://cos.aiheadn.cn/web/product/am.png" aria-hidden="true" alt="Node.js logo">
+        </div>
+        <div class="custom-right">
+            <h3>活动管理系统（通用）</h3>
+            <p>项目架构：SpringBoot + Mybatis-puls + Vue3 + element-plus + TypeScript +pureadmin + Echarts</p>
+            <p>项目描述：毕业设计题目为全生异科导师管理系统，和市面上大部分的管理系统技术通用</p>
+            <p>主要说明：单体项目，UI 使用（Pure Admin）项目，前端使用 TypeScript，作者后端是 node，为了方便开发，使用 springBoot 替换后端，拥有 CRUD 基本功能、PDF 在线预览、富文本框、Echarts 可视化、导出数据和文件导入批量修改等功能。鉴权是 RPAC 的方式设计角色、权限、用户表。</p>
+            <div class="custom-buttons">
+                <a href="http://49.232.143.13:8081/" class="custom-btn demo-btn" target="_blank">演示</a>
+                <a href="#" class="custom-btn docs-btn" target="_blank">待更新</a>
+                <a href="#" class="custom-btn repo-btn" target="_blank">待更新</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="custom-item-box">
+    <div class="custom-item">
+        <div class="custom-left">
+            <img src="https://cos.aiheadn.cn/web/product/rollcode.png" aria-hidden="true" alt="Node.js logo">
+        </div>
+        <div class="custom-right">
+            <h3>RollCode - 在线做题平台</h3>
+            <p>项目架构：Vue3+Element-Plus+Vue2+Element+Springboot+Mybatis-Plus</p>
+            <p>项目描述：是一个在线题库做题平台，旨在为编程和其他行业爱好者提供高质量的题目和训练，帮助学习者提高技能和应对挑战的能力。</p>
+            <p>主要说明：单体项目，第一个项目开发非常青涩，协助开发，拥有两个前端项目和一个后端项目</p>
+            <div class="custom-buttons">
+                <a href="https://blog.aiheadn.cn/archives/b120a898.html" class="custom-btn demo-btn" target="_blank">详细</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>  <!--  class="section" -->
+<section class="section">
+
+    <a name="product"></a>
+    <h3 class="mk-sub-title">
+        <span>Mirror resources</span>
+        <span>/</span>
+        镜像资源
+    </h3>
+    
+    <p class="mk-title-describe">收藏各大镜像资源站</p>
+    
+    <div class="mk-item-box">
+    
+    <div class="mk-item">
+        <a href="https://nodejs.org/dist/" target="_blank">
+            <article class="mk-color-item color4">
+                <div class="item-logo">
+                    <img src="https://nodejs.org/static/logos/nodejsLight.svg" aria-hidden="true" alt="Node.js logo"> <!-- 插入图像 -->
+                </div>
+                <h3>node</h3>
+                <p>node官方下载渠道</p>
+                <i class="light"></i>
+            </article>
+        </a>
+    </div>      <!-- mk-item -->
+    
+      <div class="mk-item">
+        <a href="https://msdn.itellyou.cn/" target="_blank">
+            <article class="mk-color-item color5">
+                <div class="item-logo">
+                </div>
+                <h3>系统镜像</h3>
+                <p>win操作系统下载渠道</p>
+                <i class="light"></i>
+            </article>
+        </a>
+    </div>      <!-- mk-item -->
+      
+    <div class="mk-item">
+        <a href="http://www.codebaoku.com/jdk/jdk-index.html" target="_blank">
+            <article class="mk-color-item color6">
+                <div class="item-logo">
+                </div>
+                <h3>JDK下载</h3>
+                <p>Java各大版本下载渠道</p>
+                <i class="light"></i>
+            </article>
+        </a>
+    </div>      <!-- mk-item -->
+
+    <div class="mk-item">
+        <a href="https://python.p2hp.com/downloads/windows/index.html" target="_blank">
+            <article class="mk-color-item color2">
+                <div class="item-logo">
+                </div>
+                <h3>Python镜像下载</h3>
+                <p>Python镜像下载</p>
+                <i class="light"></i>
+            </article>
+        </a>
+    </div>      <!-- mk-item -->
+
+    <div class="mk-item">
+        <a href="https://www.xxrjm.com/" target="_blank">
+            <article class="mk-color-item color2">
+                <div class="item-logo">
+                </div>
+                <h3>win常用软件下载</h3>
+                <p>日常破解资源站下载渠道</p>
+                <i class="light"></i>
+            </article>
+        </a>
+    </div>      <!-- mk-item -->
+    
+    </div>
+    
+    </section>  <!--  class="section" -->
+<section class="section">  <!--  class="section" -->
+    <div class="mk-sub-title">
+        <h3>About</h3>
+    </div>
+    
+    <div class="about-content">
+        <p>本页面主要记录本人原创或改写的作品，进行汇总，以及一些镜像网站和日常用到的工具。本页面基于<a href="https://mkblog.cn/" target="_blank">孟坤</a>开源进行二次改写开发。欲了解更多内容，请访问 <a href="https://www.aiheadn.cn/" target="_blank">个人博客</a>。</p>
+    </div>
+</section>
+
+</div>     <!-- class=container -->
+
+<footer class="footer">
+    <p>Copyright © 2024 by <a href="https://www.aiheadn.cn/" rel="nofollow">ad</a></p>
+    <p>ICP证：<a href="http://www.beian.miit.gov.cn" target="_blank">晋ICP备2021006777号</a></p>
+</footer>
+
+<!-- 返回顶部 -->
+<div class="mk-uptop" title="点击返回顶部"></div>
+
+<!-- jq -->
+<script src="jquery.min.js"></script>
+<script src="vector.js"></script>
+
+<script>
+$(function(){
+    
+    // 页面加载完毕后固定页头高度，防止在某些自动隐藏工具栏的移动浏览器上出现页面抖动现象
+    $(".header").height($(window).height());
+    
+	// 初始化 传入dom id
+	var victor = new Victor("victor-container", "victor-output");
+	var theme = [
+			["#002c4a", "#005584"],
+			["#35ac03", "#3f4303"],
+			["#ac0908", "#cd5726"],
+			["#18bbff", "#00486b"]
+		];
+	var color = theme[fRandomBy(0, 3)];
+	victor(color).set();
+	
+	// 监听滚动变化
+    $(window).scroll(function() {
+        if($(window).scrollTop() < 300) {
+            $(".mk-uptop").removeClass("show");
+        } else {
+            $(".mk-uptop").addClass("show");
+        }
+    });
+    
+    // 返回顶部
+    $(".mk-uptop").click(function(){
+		$("html, body").animate({scrollTop:0}, "normal"); 
+		return false; 
+	});
+
+    // 使用 jQuery 获取图片 URL
+    var imgUrl = $(".custom-item-box .custom-left img").attr("src");
+
+    // 设置 CSS 样式中的变量
+    $(".custom-item").each(function(index) {
+    // 获取当前 custom-item 中的图片 URL
+    var imgUrl = $(this).find(".custom-left img").attr("src");
+    
+    // 设置当前 custom-item 的背景图片
+    $(this).closest(".custom-item-box").css("--background-img-url", "url('" + imgUrl + "')");
+    });
+
+
+	
+    // 烦人的 CNZZ，输出一大堆错误信息、、清除掉！	
+	console.clear();
+});
+
+
+
+/*******************************
+ * 函数名：生成指定范围的随机数
+ * 输入：  (under)下限   (over)上限
+ * 输出： 所需要的数值
+ * *****************************/
+function fRandomBy(under, over) { 
+   switch(arguments.length){ 
+     case 1: return parseInt(Math.random()*under+1); 
+     case 2: return parseInt(Math.random()*(over-under+1) + under); 
+     default: return 0; 
+   } 
+} 
+</script>
+
+<style>
+.footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333; /* 根据需要调整背景颜色 */
+            color: #fff; /* 页脚文字颜色 */
+        }
+        .footer a {
+            color: #fff; /* 链接文字颜色 */
+            text-decoration: none; /* 取消下划线 */
+        }
+        .footer a:hover {
+            color: #ddd; /* 鼠标悬停时的颜色，可选 */
+        }
+</style>
+
+</body>
+</html>
