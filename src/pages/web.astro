@@ -1,0 +1,32 @@
+---
+import web from "../collections/web.json";
+import PageHeading from "../components/page-heading.astro";
+import Project from "../components/project.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="My web - 爱喝ad奶">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="My web - 爱喝ad奶"
+      description="a.d生态系统"
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        web.map((web) => {
+          return (
+            <Project
+              name={web.name}
+              description={web.description}
+              image={web.image}
+              url={web.url}
+            />
+          )
+        })
+      }
+    </div>
+  </section>
+</Layout>

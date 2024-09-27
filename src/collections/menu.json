@@ -8,16 +8,8 @@
 		"url": "/projects"
 	},
   {
-		"name": "博客",
-		"url": "https://blog.aiheadn.cn/"
-	},
-  {
-		"name": "摄影",
-		"url": "https://ad6666.tuchong.com/"
-	},
-  {
-		"name": "Alist",
-		"url": "https://cloud.aiheadn.cn/"
+		"name": "生态",
+		"url": "/web"
 	},
 	{
 		"name": "关于",
