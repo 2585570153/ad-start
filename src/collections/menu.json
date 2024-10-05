@@ -4,10 +4,14 @@
 		"url": "/"
 	},
 	{
+		"name": "博客",
+		"url": "https://blog.aiheadn.cn/"
+	},
+	{
 		"name": "实验室",
 		"url": "/projects"
 	},
-  {
+    {
 		"name": "生态",
 		"url": "/web"
 	},
