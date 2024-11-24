@@ -11,6 +11,12 @@
 		"image": "/assets/images/web/photo.png",
 		"url": "http://album.aiheadn.cn/"
 	},
+  {
+		"name": "ad源码网",
+		"description": "项目收集.",
+		"image": "/assets/images/web/adymw.png",
+		"url": "https://www.adymw.cn/"
+	},
 	{
 		"name": "Alist云盘",
 		"description": "资源、下载.",
@@ -27,6 +33,6 @@
 		"name": "音乐解锁",
 		"description": "音乐解锁.",
 		"image": "/assets/images/web/unlock_music.png",
-		"url": "http://81.70.103.41:8001/"
+		"url": "http://html.aiheadn.cn/unlock_music/"
 	}
 ]
