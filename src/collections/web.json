@@ -28,11 +28,5 @@
 		"description": "生态检测.",
 		"image": "/assets/images/web/monitor.png",
 		"url": "http://monitor.aiheadn.cn/"
-	},
-	{
-		"name": "音乐解锁",
-		"description": "音乐解锁.",
-		"image": "/assets/images/web/unlock_music.png",
-		"url": "http://html.aiheadn.cn/unlock_music/"
 	}
 ]
