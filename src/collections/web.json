@@ -1,21 +1,15 @@
 [
 	{
-		"name": "a.d博客",
+		"name": "ad博客",
 		"description": "学习、记录、生活.",
 		"image": "/assets/images/web/blog.png",
 		"url": "https://blog.aiheadn.cn/"
 	},
 	{
-		"name": "摄影",
+		"name": "摄影相册",
 		"description": "感动常在.",
 		"image": "/assets/images/web/photo.png",
-		"url": "http://album.aiheadn.cn/"
-	},
-  {
-		"name": "ad源码网",
-		"description": "项目收集.",
-		"image": "/assets/images/web/adymw.png",
-		"url": "https://www.adymw.cn/"
+		"url": "https://album.aiheadn.cn/"
 	},
 	{
 		"name": "Alist云盘",
@@ -27,6 +21,26 @@
 		"name": "监控系统",
 		"description": "生态检测.",
 		"image": "/assets/images/web/monitor.png",
-		"url": "http://monitor.aiheadn.cn/"
+		"url": "https://monitor.aiheadn.cn/"
+	},
+	{
+		"name": "SSL自动化",
+		"description": "值得信赖的SSL自动化方案.",
+		"image": "/assets/images/web/ssl.png",
+		"url": "https://ssl.aiheadn.cn/"
+	},  	
+	{
+		"name": "ad源码网",
+		"description": "项目收集.",
+		"image": "/assets/images/web/adymw.png",
+		"url": "https://www.adymw.cn/"
+	},  	
+	{
+		"name": "订单中心",
+		"description": "项目开发管理.",
+		"image": "/assets/images/web/order.png",
+		"url": "https://order.adymw.cn/"
 	}
+
+
 ]
