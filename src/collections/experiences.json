@@ -4,6 +4,13 @@
 		"role": "杭州某技术有限公司",
 		"company": "java开发工程师",
 		"description": "后端API和应用的开发。项目的模块设计，编码测试以及开发文档编写。",
-		"logo": "https://cdn.aiheadn.cn/aiheadn/headImg.jpg"
+		"logo": "https://cos.aiheadn.cn/headImg/favicon.ico"
+	},
+	{
+		"dates": "September 2020 · July 2023 ",
+		"role": "双体",
+		"company": "软件开发项目部",
+		"description": "🏫学习软件开发、学习编程、参加比赛",
+		"logo": "/assets/images/experiences/stx.png"
 	}
 ]
