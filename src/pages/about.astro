@@ -18,7 +18,7 @@ import Layout from "../layouts/main.astro";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-    ⌨️ 努力的程序员 ||  📷业余的摄影师 || 📖业余的设计师
+    ⌨️程序员 || 📷摄影师 || ✏️设计师
     </p>
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
@@ -54,7 +54,6 @@ import Layout from "../layouts/main.astro";
                     role={experience.role}
                     company={experience.company}
                     description={experience.description}
-                    logo={experience.logo}
                   />
                 </div>
               ) : (
@@ -63,7 +62,6 @@ import Layout from "../layouts/main.astro";
                   role={experience.role}
                   company={experience.company}
                   description={experience.description}
-                  logo={experience.logo}
                 />
               )}
             </>
