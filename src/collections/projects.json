@@ -6,10 +6,16 @@
 		"url": "http://49.232.143.13:8080/"
 	},
 	{
-		"name": "活动管理系统（通用）",
+		"name": "活动管理系统（通用管理系统）",
 		"description": "UI 使用（Pure Admin）项目，前端使用 TypeScript，拥有 CRUD 基本功能、PDF 在线预览、富文本框、Echarts 可视化、导出数据和文件导入批量修改等功能。鉴权是 RPAC 的方式设计角色、权限、用户表。",
 		"image": "/assets/images/projects/am.webp",
 		"url": "http://49.232.143.13:8081/"
+	},
+	{
+		"name": "MySQL 安装脚本生成器",
+		"description": "一个简单易用的 MySQL 安装脚本生成器，支持多种 MySQL 版本，一键生成配置文件和批处理安装脚本，让数据库安装部署变得简单高效。",
+		"image": "/assets/images/projects/mysql-script-generatorl.webp",
+		"url": "/post/mysql-script-generator"
 	},
 	{
 		"name": "RollCode - 在线做题平台",
