@@ -29,7 +29,7 @@ const categories = web.reduce((acc, item) => {
             class="z-50 grid items-stretch w-full grid-cols-1 my-5 gap-7 sm:gap-5 sm:grid-cols-3"
           >
             {
-              sites.map((site) => (
+              Array.isArray(sites) && sites.map((site) => (
                 <Project
                   name={site.name}
                   description={site.description}
