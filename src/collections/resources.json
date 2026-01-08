@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Nodejs镜像站",
+		"description": "Node.js 官方镜像站",
+		"url": "https://nodejs.org/dist/"
+	},
+	{
+		"name": "系统镜像站",
+		"description": "MSDN 系统镜像下载站",
+		"url": "https://msdn.itellyou.cn/"
+	},
+	{
+		"name": "Java镜像站",
+		"description": "华为云 OpenJDK 镜像站",
+		"url": "https://mirrors.huaweicloud.com/openjdk/"
+	},
+	{
+		"name": "Python镜像站",
+		"description": "Python 官方镜像站",
+		"url": "https://python.p2hp.com/"
+	},
+	{
+		"name": "windows资源站",
+		"description": "Windows 资源下载站",
+		"url": "https://www.xxrjm.com/"
+	}
+]
+

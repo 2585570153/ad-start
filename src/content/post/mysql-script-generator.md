@@ -20,6 +20,15 @@ MySQL Script Generator 是一个纯前端实现的 MySQL 安装脚本生成工�
 - **GitHub 仓库**: [github.com/2585570153/mysql_script_generatorl](https://github.com/2585570153/mysql_script_generatorl)
 - **Gitee 仓库**: [gitee.com/tian3615/mysql_script_generatorl](https://gitee.com/tian3615/mysql_script_generatorl)
 
+## 框架
+
+| 类型 | 框架                | 说明            |
+| ---- | ------------------- | --------------- |
+| 前端 | JavaScript/css/html | 原生            |
+| 前端 | Tailwind CSS        | CSS流行样式库   |
+| 前端 | JSZip               | 打包zip库       |
+| 脚本 | bat                 | win系统运行脚本 |
+
 ## 项目亮点
 
 ### 🚀 快速部署
@@ -40,15 +49,6 @@ MySQL Script Generator 是一个纯前端实现的 MySQL 安装脚本生成工�
 - 生成一键安装批处理脚本，包含服务注册、环境变量设置等
 - 支持生成桌面快捷方式脚本
 - 提供打包下载功能，一键获取所有文件
-
-## 技术实现
-
-项目采用纯前端技术栈实现：
-
-- **HTML/CSS**: 使用 Tailwind CSS 构建现代化的响应式界面
-- **JavaScript**: 使用 ES6 模块化开发，代码结构清晰
-- **模板系统**: 为不同 MySQL 版本维护独立的配置模板
-- **文件处理**: 使用 JSZip 库实现文件打包下载功能
 
 ### 核心功能模块
 
@@ -81,5 +81,4 @@ MySQL Script Generator 是一个纯前端实现的 MySQL 安装脚本生成工�
 ## 未来规划
 
 - 支持更多 MySQL 版本和配置选项
-
 

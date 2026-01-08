@@ -1,5 +1,6 @@
 ---
 import Button from "../button.astro";
+import resources from "../../collections/resources.json";
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -14,21 +15,11 @@ import Button from "../button.astro";
   <div
     class="grid items-stretch w-full sm:grid-cols-2 md:grid-cols-5 gap-7 mt-7"
   >
-    <div class="flex items-center justify-center w-full py-1">
-      <Button text="Nodejs镜像站" link="https://nodejs.org/dist/" />
-    </div>
-    <div class="flex items-center justify-center w-full py-1">
-      <Button text="系统镜像站" link="https://msdn.itellyou.cn/" />
-    </div>
-    <div class="flex items-center justify-center w-full py-1">
-      <Button text="Java镜像站" link="https://mirrors.huaweicloud.com/openjdk/" />
-    </div>
-    <div class="flex items-center justify-center w-full py-1">
-      <Button text="Python镜像站" link="https://python.p2hp.com/" />
-    </div>
-    <div class="flex items-center justify-center w-full py-1">
-      <Button text="windows资源站" link="https://www.xxrjm.com/" />
-    </div>
+    {resources.map((resource) => (
+      <div class="flex items-center justify-center w-full py-1">
+        <Button text={resource.name} link={resource.url} />
+      </div>
+    ))}
   </div>
 
 </section>
