@@ -30,3 +30,7 @@ dateFormatted: Jun 25th, 2023
 ## 项目预览
 
 - ![预览](https://cos.aiheadn.cn/md/2023/817715a221ce9e44.jpg)
+
+## 版权保护
+
+![著作权](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-09_16-02-00.webp)
