@@ -12,6 +12,12 @@
 		"url": "/post/activity-manage"
 	},
 	{
+		"name": "Python Wordpress  Generate自动化脚本",
+		"description": "Python Wordpress Generate 是一个功能强大的自动化项目发布工具，旨在简化项目发布流程，提升工作效率。系统采用 Python 开发，支持项目编号自动生成、图片和视频处理、多平台文件上传、WordPress 发布、视频平台发布等核心功能，大大提升了项目发布的效率和便捷性。",
+		"image": "/assets/images/projects/python.webp",
+		"url": "/post/python-wordpress-generate"
+	},
+	{
 		"name": "MySQL 安装脚本生成器",
 		"description": "一个简单易用的 MySQL 安装脚本生成器，支持多种 MySQL 版本，一键生成配置文件和批处理安装脚本，让数据库安装部署变得简单高效。",
 		"image": "/assets/images/projects/mysql-script-generatorl.webp",

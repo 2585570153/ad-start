@@ -14,8 +14,8 @@ Activity Manage 是一个完整的前后端分离活动管理系统，旨在简�
 
 ## 项目地址
 
-- **后端项目**: activity-manager-boot-develop 毕业设计作品 2028年开源
-- **前端项目**: activity-manage-vue-master 毕业设计作品 2028年开源
+- **后端项目**: activity-manager-boot-develop 毕业设计作品 暂不开放
+- **前端项目**: activity-manage-vue-master 毕业设计作品 暂不开放
 
 ## 项目预览
 
