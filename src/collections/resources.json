@@ -23,6 +23,11 @@
 		"name": "windows资源站",
 		"description": "Windows 资源下载站",
 		"url": "https://www.xxrjm.com/"
+	},
+	{
+		"name": "iconfont矢量图标库",
+		"description": "iconfont 矢量图标库",
+		"url": "https://www.iconfont.cn/"
 	}
 ]
 
