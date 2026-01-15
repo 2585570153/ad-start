@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/post.astro
-title: fiction 中文网-小说网"
+title: fiction 中文网-小说网
 description: 使用 python 中的 Scrapy 爬虫框架将网上的小说源站采集到服务器中，小说书籍和内容分别储存为本地和数据库中，使用 JAVA 和 Vue 编写的小说网站（UI 参考 QQ 阅读），读取爬虫采集的数据库，拥有阅读、分类、详情、排行榜、书架等功能
 dateFormatted: Jan 15th, 2025
 ---
@@ -15,15 +15,15 @@ dateFormatted: Jan 15th, 2025
 
 本系统是一个完整的 **在线小说网站解决方案**，由三个彼此解耦又紧密协作的子项目组成：
 
-- **前端站点：`ad-fiction-front`**
+- **前端站点：ad-fiction-front**
   - 技术栈：Vue3 + Vite + Element Plus + Pinia + Axios。
   - 负责：小说首页、详情、阅读、分类、排行、搜索、书架、评论、登录/个人中心等可视化页面。
 
-- **后端服务：`fiction`**
+- **后端服务：fiction**
   - 技术栈：Spring Boot 2.7.11 + MyBatis-Plus + MySQL + Redis + Sa-Token + Druid + x-file-storage + WebDAV。
   - 负责：对外 REST API、业务逻辑处理、登录与权限、缓存、文件存储对接。
 
-- **爬虫采集：`fiction_spider`**
+- **爬虫采集：fiction_spider**
   - 技术栈：Scrapy + PyMySQL + webdav4 + requests。
   - 负责：从第三方小说站（如奇书网）批量采集小说及章节内容，写入 MySQL，并可将 txt/封面同步到 WebDAV。
 
@@ -64,51 +64,51 @@ https://docs.apipost.net/docs/2d7a593fb864000?locale=zh-cn
 
 ## 各子系统详细说明
 
-### 1. 前端 `ad-fiction-front`
+### 1. 前端ad-fiction-front
 
 #### 1.1 技术栈与特点
 
 - Vue3 组合式 API，组件更加清晰易复用。  
 - Vite 开发服务器，热更新快、构建效率高。  
 - Vue Router 4 管理前端路由与页面跳转。  
-- Pinia + `pinia-plugin-persistedstate` 管理登录状态、阅读进度等需要持久化的数据。  
+- Pinia +pinia-plugin-persistedstate 管理登录状态、阅读进度等需要持久化的数据。  
 - Element Plus 提供成熟的 UI 组件体系（表单、对话框、表格、布局等）。  
 - Axios 封装 HTTP 请求，统一处理后端响应和错误。  
 
 #### 1.2 页面路由与主要业务
 
-核心路由（来自 `src/router/index.js`）：
+核心路由（来自src/router/index.js）：
 
-- `/`：首页布局 `Layout`，可承载推荐、轮播、各类榜单等模块。  
-- `/detail/:id`：小说详情页，展示简介、作者、分类、最新章节等信息。  
-- `/read/:tableName/:fictionId/:id`：阅读页，从后端加载指定章节内容。  
-- `/category/:bigclass/:id/:classify?`：分类页，支持按大类/小类筛选。  
-- `/rankinglist/:bigclass/:id/:rankinglist`：多维度排行榜（点击、收藏等）。  
-- `/bookrank`：书架页，管理用户已收藏的小说。  
-- `/search/:name/:id`：搜索结果展示。  
-- `/login`：登录页，与后端 Sa-Token 对接。  
-- `/info`：个人信息与账号设置。  
-- `/comment/:id`：评论页，围绕指定小说展开评论。  
-- `/mobile`：移动端专用布局。  
-- `/test`：测试/调试用页面。  
+-/：首页布局Layout，可承载推荐、轮播、各类榜单等模块。  
+-/detail/:id：小说详情页，展示简介、作者、分类、最新章节等信息。  
+-/read/:tableName/:fictionId/:id：阅读页，从后端加载指定章节内容。  
+-/category/:bigclass/:id/:classify?：分类页，支持按大类/小类筛选。  
+-/rankinglist/:bigclass/:id/:rankinglist：多维度排行榜（点击、收藏等）。  
+-/bookrank：书架页，管理用户已收藏的小说。  
+-/search/:name/:id：搜索结果展示。  
+-/login：登录页，与后端 Sa-Token 对接。  
+-/info：个人信息与账号设置。  
+-/comment/:id：评论页，围绕指定小说展开评论。  
+-/mobile：移动端专用布局。  
+-/test：测试/调试用页面。  
 
-路由守卫中根据 UserAgent 判断是否为移动端，将 `to.meta.isMobile` 设置为 `true/false`，为响应式布局和差异化页面提供依据。
+路由守卫中根据 UserAgent 判断是否为移动端，将to.meta.isMobile 设置为true/false，为响应式布局和差异化页面提供依据。
 
 #### 1.3 与后端接口对接
 
-- 所有接口封装在 `src/apis` 目录下，如：
-  - `bannerAPI.js`：首页 banner / 推荐位。  
-  - `fictionAPI.js`：小说列表 & 详情。  
-  - `chapterAPI.js`：章节内容相关接口。  
-  - `commentAPI.js`：评论增删查接口。  
-  - `rankinglistAPI.js`：排行榜查询接口。  
-  - `searchAPI.js`：搜索接口。  
-  - `userAPI.js`：登录 / 用户信息接口等。  
-- Axios 实例统一在 `utils/http.js` 中创建，Base URL 一般指向 `http://localhost:8080` 或你的后端域名。
+- 所有接口封装在src/apis 目录下，如：
+  -bannerAPI.js：首页 banner / 推荐位。  
+  -fictionAPI.js：小说列表 & 详情。  
+  -chapterAPI.js：章节内容相关接口。  
+  -commentAPI.js：评论增删查接口。  
+  -rankinglistAPI.js：排行榜查询接口。  
+  -searchAPI.js：搜索接口。  
+  -userAPI.js：登录 / 用户信息接口等。  
+- Axios 实例统一在utils/http.js 中创建，Base URL 一般指向http://localhost:8080 或你的后端域名。
 
 ---
 
-### 2. 后端 `fiction`
+### 2. 后端fiction
 
 #### 2.1 技术架构
 
@@ -122,18 +122,18 @@ https://docs.apipost.net/docs/2d7a593fb864000?locale=zh-cn
 
 #### 2.2 模块说明
 
-- `controller`：REST 接口层，对应小说、章节、用户、评论、书架、排行等模块。  
-- `Service`：业务服务层，封装所有业务逻辑与事务控制。  
-- `mapper`：持久层接口，使用 MyBatis-Plus 与数据库交互。  
-- `entity`：实体类，映射 MySQL 表结构。  
-- `common`：通用返回结果 `R`、全局异常处理器等。  
-- `config`：MyBatisPlusConfig、RedisConfig、ServletConfig、Sa-Token、文件存储配置等。  
-- `filter`：Sa-Token 过滤器、安全拦截相关配置。  
-- `utils`：工具类（时间、JSON、分页、文件等）。  
+-controller：REST 接口层，对应小说、章节、用户、评论、书架、排行等模块。  
+-Service：业务服务层，封装所有业务逻辑与事务控制。  
+-mapper：持久层接口，使用 MyBatis-Plus 与数据库交互。  
+-entity：实体类，映射 MySQL 表结构。  
+-common：通用返回结果R、全局异常处理器等。  
+-config：MyBatisPlusConfig、RedisConfig、ServletConfig、Sa-Token、文件存储配置等。  
+-filter：Sa-Token 过滤器、安全拦截相关配置。  
+-utils：工具类（时间、JSON、分页、文件等）。  
 
 ---
 
-### 3. 爬虫 `fiction_spider`
+### 3. 爬虫fiction_spider
 
 #### 3.1 功能定位
 
@@ -143,49 +143,49 @@ https://docs.apipost.net/docs/2d7a593fb864000?locale=zh-cn
 
 #### 3.2 Scrapy 项目结构
 
-- `spiders/qishuwang.py`：奇书网主爬虫，实现 `start_requests` / `parse` / `contenturl` 三个核心流程。  
-- `items.py`：定义 `FictionItem`，包含小说名、作者、封面、简介、章节标题、章节内容等字段。  
-- `pipelines/pipelines.py`：负责使用 PyMySQL 将 Item 写入 MySQL。  
-- `pipelines/txt_pipelines.py`：负责生成 txt 并调用 WebDAV 上传（视实际实现而定）。  
-- `utils/WebDAVUploader.py`：WebDAV 上传工具类。  
-- `settings.py`：Scrapy 全局配置（并发、UA、日志级别、MySQL 连接等）。  
+-spiders/qishuwang.py：奇书网主爬虫，实现start_requests /parse /contenturl 三个核心流程。  
+-items.py：定义FictionItem，包含小说名、作者、封面、简介、章节标题、章节内容等字段。  
+-pipelines/pipelines.py：负责使用 PyMySQL 将 Item 写入 MySQL。  
+-pipelines/txt_pipelines.py：负责生成 txt 并调用 WebDAV 上传（视实际实现而定）。  
+-utils/WebDAVUploader.py：WebDAV 上传工具类。  
+-settings.py：Scrapy 全局配置（并发、UA、日志级别、MySQL 连接等）。  
 
 ---
 
 ## 使用流程
 
 1. **准备基础环境**
-   - 安装并启动 MySQL，创建数据库 `fiction`。  
+   - 安装并启动 MySQL，创建数据库fiction。  
    - 安装并启动 Redis。  
    - 准备 WebDAV 服务（可以是云盘 WebDAV 或自建服务），记录好地址、用户名、密码。  
 
 2. **运行爬虫初始化数据（推荐）**
-   - 在 `fiction_spider/fiction/settings.py` 中配置 MySQL 和 WebDAV。  
+   - 在fiction_spider/fiction/settings.py 中配置 MySQL 和 WebDAV。  
    - 执行：
-     ```bash
+    bash
      cd fiction_spider
      scrapy crawl qishuwang
-     ```
+    
    - 按提示输入目标小说目录页 URL，等待采集完成，确认 MySQL 中已有小说及章节数据。  
 
-3. **启动后端 `fiction`**
-   - 修改 `fiction/src/main/resources/application.yml`：
-     - `spring.datasource.druid`：MySQL 地址、用户名、密码。  
-     - `spring.redis`：Redis 地址、密码。  
-     - `dromara.x-file-storage.webdav`：WebDAV 地址、账号、密码等。  
+3. **启动后端fiction**
+   - 修改fiction/src/main/resources/application.yml：
+     -spring.datasource.druid：MySQL 地址、用户名、密码。  
+     -spring.redis：Redis 地址、密码。  
+     -dromara.x-file-storage.webdav：WebDAV 地址、账号、密码等。  
    - 启动：
-     ```bash
+    bash
      cd fiction
      mvn spring-boot:run
-     ```
+    
    - 使用 Postman 或浏览器调用部分接口，确认后端工作正常。  
 
-4. **启动前端 `ad-fiction-front`**
-   - 在前端项目中将 Axios Base URL 指向后端地址，如 `http://localhost:8080`。  
+4. **启动前端ad-fiction-front**
+   - 在前端项目中将 Axios Base URL 指向后端地址，如http://localhost:8080。  
    - 启动：
-     ```bash
+    bash
      cd ad-fiction-front
      npm install
      npm run dev
-     ```
-   - 打开 Vite 提示的地址（一般 `http://localhost:5173`），体验完整的小说阅读流程。  
+    
+   - 打开 Vite 提示的地址（一般http://localhost:5173），体验完整的小说阅读流程。  
