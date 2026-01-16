@@ -30,6 +30,12 @@
 		"url": "/post/mysql-script-generator"
 	},
 	{
+		"name": "PlantUML在线生成可视化",
+		"description": "一个功能丰富、界面现代的 PlantUML 图表在线生成工具可视化。打开网页即可快速创建和下载高质量的 UML 图表。",
+		"image": "/assets/images/projects/plantuml-web.webp",
+		"url": "/post/plantuml-web"
+	},
+	{
 		"name": "RollCode - 在线做题平台",
 		"description": "是一个在线题库做题平台，旨在为编程和其他行业爱好者提供高质量的题目和训练，帮助学习者提高技能和应对挑战的能力.",
 		"image": "/assets/images/projects/rollcode.webp",

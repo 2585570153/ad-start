@@ -47,7 +47,13 @@
 		"image": "/assets/images/web/ssl.webp",
 		"url": "https://ssl.aiheadn.cn/",
 		"category": "工具链路群"
-	},  	
+	},  		{
+		"name": "umami",
+		"description": "自建网站统计分析系统.",
+		"image": "/assets/images/web/umami.webp",
+		"url": "https://umami.aiheadn.cn/share/YoJJWcygfN5OFo44/www.aiheadn.cn",
+		"category": "工具链路群"
+	}, 
 	{
 		"name": "ad源码网",
 		"description": "项目收集、源码分享.",

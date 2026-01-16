@@ -16,7 +16,7 @@ MySQL Script Generator 是一个纯前端实现的 MySQL 安装脚本生成工�
 
 ## 项目地址
 
-- **在线演示**: [mysql.aiheadn.cn/](http://mysql.aiheadn.cn/)
+- **在线演示**: [mysql.aiheadn.cn/](http://web.aiheadn.cn/mysql/)
 - **GitHub 仓库**: [github.com/2585570153/mysql_script_generatorl](https://github.com/2585570153/mysql_script_generatorl)
 - **Gitee 仓库**: [gitee.com/tian3615/mysql_script_generatorl](https://gitee.com/tian3615/mysql_script_generatorl)
 
