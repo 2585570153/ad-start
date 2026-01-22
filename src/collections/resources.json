@@ -29,10 +29,15 @@
 		"description": "iconfont 矢量图标库",
 		"url": "https://www.iconfont.cn/"
 	},
-  {
-    "name": "轩辕Dokcer镜像",
-    "description": "轩辕Dokcer镜像",
-    "url": "https://xuanyuan.cloud/"
-  }
+	{
+		"name": "轩辕Dokcer镜像",
+		"description": "轩辕Dokcer镜像",
+		"url": "https://xuanyuan.cloud/"
+	},
+	{
+		"name": "pkmer",
+		"description": "Obsidian 资源站",
+		"url": "https://pkmer.cn/"
+	}
 ]
 
