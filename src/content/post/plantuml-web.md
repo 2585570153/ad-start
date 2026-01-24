@@ -1,4 +1,9 @@
-![使用效果演示](assets/Snipaste_2026-01-16_12-48-38.png)
+---
+layout: ../../layouts/post.astro
+title: PlantUML 在线生成器
+description: 一个纯前端实现的 PlantUML 图表生成工具，支持实时预览、PNG/SVG 双格式导出、明暗主题切换，无需安装任何依赖，打开即用。
+dateFormatted: Jan 16th, 2026
+---
 
 预览地址：http://web.aiheadn.cn/plantuml/
 
@@ -10,7 +15,6 @@
 
 PlantUML 在线生成器是一个纯前端实现的 PlantUML 图表生成工具，旨在简化 UML 图表的创建和导出过程。通过简洁的代码编辑器，即可实时生成高质量的 UML 图表，支持 PNG 和 SVG 两种格式，并提供现代化的用户界面和丰富的交互功能。
 
-![使用效果演示](assets/Snipaste_2026-01-16_12-48-38.png)
 
 ## 项目地址
 
