@@ -11,12 +11,29 @@ dateFormatted: Jan 15th, 2025
 
 ## 项目简介
 
-多模态RAG智能问答系统是一个基于FastAPI构建的企业级智能问答平台，集成了文档处理、向量检索、工具插件等核心能力。系统支持PDF、Word、Excel、图片等多种格式的文档上传，通过ChromaDB进行向量存储和语义检索，结合大语言模型实现智能问答。同时提供了插件化的工具系统，支持自定义工具扩展，满足不同业务场景的需求。
+多模态RAG智能问答系统是一个基于FastAPI构建的智能问答平台，集成了文档处理、向量检索、工具插件等核心能力。系统支持PDF、Word、Excel、图片等多种格式的文档上传，通过ChromaDB进行向量存储和语义检索，结合大语言模型实现智能问答。同时提供了插件化的工具系统，支持自定义工具扩展，满足不同业务场景的需求。
+
+![image-20260125230828085](https://cos.aiheadn.cn/md/2026/01/image-20260125230828085.png)
 
 ## 项目地址
 
+- **演示地址**: 主页右下角聊天界面 https://www.aiheadn.cn/
 - **GitHub 仓库**: https://github.com/2585570153/langchainModule
 - **Gitee 仓库**: https://gitee.com/tian3615/langchain-module
+
+## 项目预览
+
+![image-20260125225545321](https://cos.aiheadn.cn/md/2026/01/image-20260125225545321.png)
+
+![image-20260125225856144](https://cos.aiheadn.cn/md/2026/01/image-20260125225856144.png)
+
+![image-20260125230846397](https://cos.aiheadn.cn/md/2026/01/image-20260125230846397.png)
+
+![image-20260125230900117](https://cos.aiheadn.cn/md/2026/01/image-20260125230900117.png)
+
+![image-20260125230934572](https://cos.aiheadn.cn/md/2026/01/image-20260125230934572.png)
+
+![image-20260125231041883](https://cos.aiheadn.cn/md/2026/01/image-20260125231041883.png)
 
 ## 技术栈
 
