@@ -38,6 +38,11 @@
 		"name": "pkmer",
 		"description": "Obsidian 资源站",
 		"url": "https://pkmer.cn/"
+	},
+	{
+		"name": "apkpure",
+		"description": "apk 下载站",
+		"url": "https://apkpure.net/"
 	}
 ]
 
