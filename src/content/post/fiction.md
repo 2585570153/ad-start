@@ -44,11 +44,63 @@ dateFormatted: Jan 15th, 2025
 
 ![1](https://cos.aiheadn.cn/md/2026/01/f.png)
 
+## 项目地址
+
+**GitHub 仓库**: 
+https://github.com/2585570153/ad-fiction-front
+https://github.com/2585570153/fiction
+https://github.com/2585570153/fiction_spider
+
+**Gitee 仓库**: 
+https://gitee.com/tian3615/ad-fiction-front
+https://gitee.com/tian3615/fiction
+https://gitee.com/tian3615/fiction_spider
+
+
+## 数据源
+
+项目中所涉及的图片和文本内容已经打包成zip包 可供下载
+
+https://www.123865.com/s/Z7EcVv-QaStd
+
+项目开发阶段采用123云盘的webdev方式上传，并且通过直链鉴权方式提供阅览，后续可自行开发其他存储方式
+
 ---
 
 ## 开发接口说明
 
 https://docs.apipost.net/docs/2d7a593fb864000?locale=zh-cn
+
+## 项目预览图
+
+![Snipaste_2026-01-28_23-47-50](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-47-50.webp)
+
+![Snipaste_2026-01-28_23-48-08](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-48-08.webp)
+
+![Snipaste_2026-01-28_23-48-24](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-48-24.webp)
+
+![Snipaste_2026-01-28_23-48-36](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-48-36.webp)
+
+![Snipaste_2026-01-28_23-48-51](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-48-51.webp)
+
+![Snipaste_2026-01-28_23-56-32](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-56-32.webp)
+
+![Snipaste_2026-01-28_23-56-57](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-56-57.webp)
+
+![Snipaste_2026-01-28_23-57-02](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-57-02.webp)
+
+![Snipaste_2026-01-28_23-57-21](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-57-21.webp)
+
+![Snipaste_2026-01-28_23-57-30](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-57-30.webp)
+
+![Snipaste_2026-01-28_23-57-52](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-57-52.webp)
+
+![Snipaste_2026-01-28_23-58-03](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-58-03.webp)
+
+![Snipaste_2026-01-28_23-58-45](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-58-45.webp)
+
+![Snipaste_2026-01-28_23-59-58](https://cos.aiheadn.cn/md/2026/01/Snipaste_2026-01-28_23-59-58.webp)
+
 
 ## 系列开发笔记
 
@@ -59,7 +111,6 @@ https://docs.apipost.net/docs/2d7a593fb864000?locale=zh-cn
 [fiction中文网爬虫代码分析 | ad博客](https://blog.aiheadn.cn/archives/33410d32.html)
 
 ~~[fiction中文网flutter代码分析 | ad博客](https://blog.aiheadn.cn/archives/b701ad99.html) 该子项目开发失败 已放弃~~
-
 
 
 ## 各子系统详细说明
