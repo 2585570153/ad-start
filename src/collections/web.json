@@ -53,20 +53,6 @@
 		"image": "/assets/images/web/umami.webp",
 		"url": "https://umami.aiheadn.cn/share/YoJJWcygfN5OFo44/www.aiheadn.cn",
 		"category": "工具链路群"
-	}, 
-	{
-		"name": "ad源码网",
-		"description": "项目收集、源码分享.",
-		"image": "/assets/images/web/adymw.webp",
-		"url": "https://www.adymw.cn/",
-		"category": "源码网生态群"
-	},  	
-	{
-		"name": "订单中心",
-		"description": "项目开发管理、订单管理.",
-		"image": "/assets/images/web/order.webp",
-		"url": "https://order.adymw.cn/",
-		"category": "源码网生态群"
 	}
 
 
