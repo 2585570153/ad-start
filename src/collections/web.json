@@ -47,12 +47,27 @@
 		"image": "/assets/images/web/ssl.webp",
 		"url": "https://ssl.aiheadn.cn/",
 		"category": "工具链路群"
-	},  		{
+	},  		
+	{
 		"name": "umami",
 		"description": "自建网站统计分析系统.",
 		"image": "/assets/images/web/umami.webp",
 		"url": "https://umami.aiheadn.cn/share/YoJJWcygfN5OFo44/www.aiheadn.cn",
 		"category": "工具链路群"
+	},  		
+	{
+		"name": "MySQL 安装脚本生成器",
+		"description": "一个简单易用的 MySQL 安装脚本生成器",
+		"image": "/assets/images/projects/mysql-script-generatorl.webp",
+		"url": "http://web.aiheadn.cn/mysql",
+		"category": "探索"
+	},  		
+	{
+		"name": "PlantUML",
+		"description": "PlantUML在线生成可视化.",
+		"image": "/assets/images/projects/plantuml-web.webp",
+		"url": "http://web.aiheadn.cn/plantuml",
+		"category": "探索"
 	}
 
 
