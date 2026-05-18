@@ -17,7 +17,7 @@
 	{
 		"name": "Python镜像站",
 		"description": "Python 官方镜像站",
-		"url": "https://python.p2hp.com/"
+		"url": "https://mirrors.aliyun.com/python-release/"
 	},
 	{
 		"name": "windows资源站",
